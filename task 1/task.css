@@ -1,0 +1,119 @@
+@font-face {
+    font-family:Roboto;
+    src: url("Roboto-Medium.ttf");
+}
+*{
+    margin:0;
+    padding:0;
+}
+h1{
+    font-family: "Roboto";
+    font-weight: 300;
+    text-align: center;
+    margin-top: 103px;
+    margin-bottom: 13px;
+}
+main{
+    width: 555px;
+    height: 353px;
+    border: 1px solid red;
+    margin:0 auto;
+    background: #E0EDFA;
+    border: 1px solid black;
+    border-radius: 9px;
+}
+.addTitle{
+    height: 40px;
+    width:425px;
+    background-color: white;
+    border: 1px white;
+    border-radius:5px;
+    margin-right: 8px;
+}
+.addTitleContiner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 506px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-bottom: 33px;
+}
+.addTitle input{
+    height: 36px;
+    width:inherit ;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-family: "Roboto";
+    box-sizing: border-box;
+    padding-top: 13px;
+    padding-bottom: 10px;
+    padding-left: 22px;
+    font-weight: 300;
+    border-radius:5px;   
+}
+.addbtn{
+    height: 40px;
+    width: 73px;
+    background-color: #6FDA9A;
+    outline: 0;
+    border-radius: 5px;
+    border: none;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 200;
+    cursor: pointer;
+}
+.taskContiner{
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-bottom: 5px;
+    margin-left: 25px;
+    height: 40px;
+    width: 506px;
+    background-color: white;
+    border-radius: 5px;
+}
+.taskContiner input{
+    width: 361px;
+    height: inherit;
+    border: none;
+    outline: none;
+    font-size: 19px;
+    font-family: "Roboto";
+    box-sizing: border-box;
+    padding-top: 13px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    border-radius:5px;  
+}
+.editBtn{
+    height: 26px;
+    width: 56px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: #6FC0DA;
+    margin-top: 9px;
+    margin-right: 7px;
+    color:white;
+    font-size: 14px;
+    cursor: pointer;
+}
+.deleteBtn{
+    width: 56px;
+    height: 26px;
+    margin-top: 9px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #DA6FA2;
+    border-radius: 5px;
+    color:white;
+    font-size: 14px;
+}
+
